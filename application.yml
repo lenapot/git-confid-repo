@@ -1,2 +1,9 @@
 welcome:
   global: welcome to global env
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
